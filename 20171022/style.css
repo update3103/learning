@@ -1,0 +1,56 @@
+.title{
+  color: #CC3300;
+  font-weight: bold;
+  padding-left: 50px
+}
+
+.riri-profile{
+  width: 400px;
+  font-size: 15px;
+  float: left;
+  padding: 0px 10px 0px 50px;
+}
+.name-riri{
+  border-bottom:1px solid gray
+}
+.info-riri{
+  font-weight: bold;
+}
+.image-riri{
+  text-align: center;
+}
+.comment-riri{
+  background-color:#CC3300;
+  border-radius: 20px;
+  padding-left: 10px;
+  color: #FFFFFF;
+  width: 300px
+}
+
+.shinshin-profile{
+  width: 400px;
+  font-size: 15px;
+  float: left;
+  padding: 0px 20px 0px 50px;
+  border-left: 1px solid gray
+}
+.name-shinshin{
+  border-bottom:1px solid gray;
+}
+.info-shinshin{
+  font-weight: bold;
+}
+.image-shinshin{
+  text-align: center;
+}
+.comment-shinshin{
+  background-color: #CC3300;
+  border-radius: 20px;
+  padding-left: 10px;
+  color: #FFFFFF;
+  width: 300px;
+}
+
+#gender{
+  font-size:50%
+}
