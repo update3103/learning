@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+p {
+  min-height: 80px;
+}
+
+.brand{
+  width: 800px;
+  margin: 10px auto;
+}
+
 .brand_title{
   color: #479c4c;
   font-size: 36px;
@@ -17,17 +26,16 @@
 .brand_subtitle{
   color: #479c4c;
   font-size: 20px;
-
   /*border-bottom: 2px solid #479c4c;*/
-}
-.brand_image{
-  width: 100%;
+
 }
 
-.brand_image_box{
-  text-align: center;
-  background-color: #dfefe4;
-  padding: 20px;
+.brand_list{
+  width: 800px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .brand_item{
@@ -38,18 +46,20 @@
   padding: 10px 5px;
 }
 
-.brand_logo{
-  width: 180px;
-}
-
 .brand_logo_box{
   text-align: center;
 }
 
-ul{
-  width: 800px;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.brand_logo{
+  width: 180px;
+}
+
+.brand_image_box{
+  text-align: center;
+  background-color: #dfefe4;
+  padding: 20px;
+}
+
+.brand_image{
+  width: 100%;
 }
