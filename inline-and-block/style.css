@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #fef;
+}
+
+div {
+  background-color: #fdf;
+}
+
+p {
+  background-color: #fcf;
+}
+
+span {
+  background-color: #dff;
+}
+
+img {
+  background-color: #cff;
+}
