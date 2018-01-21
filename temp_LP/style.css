@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.elMain {
+  width: 1020px;
+  /*background-color: #dadada;*/
+  margin: 0 auto;
+}
+
+.elYahooLogo {
+  margin: 0 auto;
+  display: block;
+}
+
+.elHeadline {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.elOfficeIntroduction {
+  display: flex;
+  margin-top: 40px;
+}
+
+.elOfficeIntroductionTitle {
+  font-size: 28px;
+  color: #f35c3d;
+}
+
+.elOfficeIntroductionSubTitle {
+  font-size: 20px;
+  color: #f35c3d;
+}
+
+.elIntroductionImage {
+  width: 50%;
+}
+
+.elIntroductionTexts {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.elIntroductionText {
+  font-size: 18px;
+  margin-top: 27px;
+  line-height: 1.7;
+}
