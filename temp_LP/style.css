@@ -3,10 +3,77 @@
   padding: 0;
 }
 
+.elTemp {
+  width: 1020px;
+  margin: 0 auto;
+  height: 40px;
+
+}
+
+.elTempLogo {
+  margin-top: 5px;
+}
+
+.elTempLogo:hover {
+  opacity: 0.9;
+}
+
+.elHeader {
+  width: 100%;
+  padding-top: 80px;
+  height: 360px;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.elHeaderContent {
+  width: 580px;
+  margin: 0 auto;
+  height: 280px;
+  background-color: rgba(255,255,255,0.7);
+  text-align: center;
+  border: 10px solid rgba(200,200,200,0.1);
+
+}
+.elHeaderTexts {
+  line-height: 1.2;
+  font-size: 64px;
+}
+
+.elHeaderText1 {
+  font-size: 30px;
+}
+
+.elHeaderText2 {
+  color: #eb3335;
+}
+
+.elEntryButton {
+  width: 450px;
+  height: 70px;
+  background-color: #cd453f;
+  text-align: center;
+  line-height: 70px;
+  margin: 20px auto 0;
+}
+
+.elEntryButton:hover {
+  opacity: 0.9;
+}
+
+.elEntryButtonLink {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+}
+
 .elMain {
   width: 1020px;
   /*background-color: #dadada;*/
-  margin: 0 auto;
+  margin: 30px auto 0;
 }
 
 .elYahooLogo {
@@ -48,4 +115,38 @@
   font-size: 18px;
   margin-top: 27px;
   line-height: 1.7;
+}
+
+.elEvent {
+  background-color: #F4F5F6;
+  padding: 24px;
+}
+
+.elEventTitle {
+  font-size: 22px;
+
+}
+
+.elJobItems {
+  display: flex;
+  width: 900px;
+  margin: 20px auto 0;
+}
+
+.elJobItem {
+  width: calc(100% / 3);
+  padding: 20px;
+}
+
+.elJobItemTitle {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 150px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #E8F7F5;
+  border: 3px solid #B8E6E1;
+  font-size: 20PX;
+  font-weight: bold;
 }
